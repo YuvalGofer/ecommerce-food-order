@@ -17,7 +17,7 @@ input{
   outline: none;
 }
 div button{
-  color: gray;
+  color: rgb(169, 169, 169);
   height: 3rem;
   width: 5rem;
   font-size: 1rem;

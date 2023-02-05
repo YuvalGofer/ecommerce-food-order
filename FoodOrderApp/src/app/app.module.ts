@@ -7,13 +7,15 @@ import { HeaderComponent } from './components/partias/header/header.component';
 import { HomeComponent } from './components/pages/home/home.component';
 import { RatingModule } from 'ng-starrating';
 import { SearchComponent } from './components/partias/search/search.component';
+import { TagsComponent } from './components/partias/tags/tags.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     HomeComponent,
-    SearchComponent
+    SearchComponent,
+    TagsComponent
   ],
   imports: [
     BrowserModule,
