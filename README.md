@@ -1,10 +1,9 @@
-##Lessons 5 List Foods 
-1. Create Food model
-2. Create data.ts
-   a. Add sample foods
-3. Add images to assets
-4. Create Food service
-5. Create Home component
-   a. Add ts
-   b. Add html
-   c. Add css
+##Lessons 6 Search  
+1. Add method to Food service
+2. Add search route
+3. Show search result in Home component
+4. Generate search component
+   a. Add to home component
+   b. Add ts
+   c. Add html
+   d. Add css
