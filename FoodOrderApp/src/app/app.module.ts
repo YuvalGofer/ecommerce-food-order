@@ -23,6 +23,8 @@ import { DefaultButtonComponent } from './components/partias/default-button/defa
 import { RegisterPageComponent } from './components/pages/register-page/register-page.component';
 import { LoadingComponent } from './components/partias/loading/loading.component';
 import { LoadingInterceptor } from './shared/interceptors/loading.interceptor';
+import { CheckoutPageComponent } from './components/pages/checkout-page/checkout-page.component';
+import { OrderItemsListComponent } from './components/partias/order-items-list/order-items-list.component';
 
 @NgModule({
   declarations: [
@@ -41,7 +43,9 @@ import { LoadingInterceptor } from './shared/interceptors/loading.interceptor';
     TextInputComponent,
     DefaultButtonComponent,
     RegisterPageComponent,
-    LoadingComponent
+    LoadingComponent,
+    CheckoutPageComponent,
+    OrderItemsListComponent
   ],
   imports: [
     BrowserModule,
@@ -58,7 +62,7 @@ import { LoadingInterceptor } from './shared/interceptors/loading.interceptor';
 
   ],
   providers: [
-    { provide: HTTP_INTERCEPTORS, useClass: LoadingInterceptor }
+    { provide: HTTP_INTERCEPTORS, useClass: LoadingInterceptor, multi : true }
   ],
   bootstrap: [AppComponent]
 })
