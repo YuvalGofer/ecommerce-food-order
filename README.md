@@ -1,10 +1,10 @@
-##Lessons 10 Cart Page
-1. Create CartItem Model
-2. Create Cart Model
-3. Generate Cart service
-4. Add to Cart Button in Food Page
-5. Generate Cart page component
-   a. Add Route
-   b. Add ts
-   c. Add html
-   d. Add css
+##Lessons 10 Not Found!
+1. Generate Component
+   a. Add ts
+   b. Add html
+   c. Add css
+2. Add To Pages
+   a. Home Page
+   b. Food Page
+   c. Cart Page
+  
