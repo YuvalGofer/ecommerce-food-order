@@ -20,6 +20,7 @@ import { InputContainerComponent } from './components/partias/input-container/in
 import { InputValidationComponent } from './components/partias/input-validation/input-validation.component';
 import { TextInputComponent } from './components/partias/text-input/text-input.component';
 import { DefaultButtonComponent } from './components/partias/default-button/default-button.component';
+import { RegisterPageComponent } from './components/pages/register-page/register-page.component';
 
 @NgModule({
   declarations: [
@@ -36,7 +37,8 @@ import { DefaultButtonComponent } from './components/partias/default-button/defa
     InputContainerComponent,
     InputValidationComponent,
     TextInputComponent,
-    DefaultButtonComponent
+    DefaultButtonComponent,
+    RegisterPageComponent
   ],
   imports: [
     BrowserModule,
