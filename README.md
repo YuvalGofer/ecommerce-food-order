@@ -1,16 +1,28 @@
- ##Lessons 11 Connect To Backend Continued
-1. Create backend folder
-2. npm init
-3. npm install typescript
-4. Create tsconfig.json
-5. Create .gitignore
-6. Copy data.ts to backend/src
-7. npm install express cors
-8. Create server.ts
-   a. install @types
-   b. Add Apis
-9. npm install nodemon ts-node --save-dev
-10. Add urs.ts to frontend
-11. Add HttpClient module
-12. Update food service
+ ##Lessons 12 Login Page
+1. Generate Component
+   a. Add to routes
+   b. Add ts
+   c. Add html
+      a.Import Reactive Forms Module
+   d. Add Css
+2. Add Login Api
+
+   a. Use json
+   b. Add jsonwebtoken
+   c. Test Using Postman
+3. Generate User Service
+
+   a. Generate User model
+   b. Add User Subject
+   c. Add Login Method
+      a. Add User Urls
+      b. Generate IUserLogin interface
+      c. Add ngx-toastr
+         a. Import Module
+         b. Import BrowserAnimationsModule
+         c. Add styles in angular.json
+   d. Add to Header
+ d. Add Local Storage methods
+ e. Add Logout Method
+   a. Add to Header
   
