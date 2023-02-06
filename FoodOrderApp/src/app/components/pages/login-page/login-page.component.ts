@@ -14,8 +14,8 @@ export class LoginPageComponent implements OnInit {
   isSubmitted = false;
   returnUrl = '';
   // returnUrl = '';
-  constructor(private formBuilder: FormBuilder, private userService:UserService,
-    private activatedRoute:ActivatedRoute, private router:Router) { }
+  constructor(private formBuilder: FormBuilder, private userService: UserService,
+    private activatedRoute: ActivatedRoute, private router: Router) { }
 
   ngOnInit(): void {
     this.loginForm = this.formBuilder.group({
@@ -33,10 +33,13 @@ export class LoginPageComponent implements OnInit {
   submit() {
     this.isSubmitted = true;
     if (this.loginForm.invalid) return;
-    this.userService.login({email:this.fc.email.value,
-       password: this.fc.password.value}).subscribe(() => {
-         this.router.navigateByUrl(this.returnUrl);
-       });
+
+    this.userService.login({
+      email: this.fc.email.value,
+      password: this.fc.password.value
+    }).subscribe(() => {
+      this.router.navigateByUrl(this.returnUrl);
+    });
   }
 
 }

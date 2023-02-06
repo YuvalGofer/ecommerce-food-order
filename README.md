@@ -1,7 +1,12 @@
- ##Lessons 13 Make Components For Login Page
-1. Input Container
-2. Input Validation
-3. Text Input
-4. Default Button
-
+ ##Lessons 14 Connect Login API To MongoDB Atlas
+1. Moving Apis into routers
+2. Create MongoDB Atlas
+3. Create .env file
+4. Install
+   a. mongoose
+   b. dotenv
+   c. bcryptjs
+   d. express-async-handler
+5. Connect to MongoDB Atlas
+6. Use MongoDB instead of data.ts in apis
   
