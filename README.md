@@ -1,4 +1,4 @@
- ##Lessons 17 Checkout Page
+ ##Lessons 17.1 Checkout Page part 2
 
 1. Create Order Model
 2. Create Checkout Page Component
